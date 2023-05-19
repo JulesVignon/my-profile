@@ -1,0 +1,116 @@
+body{
+	background-color: rgb(147, 132, 209);
+	color: rgb(20, 20, 20);
+	font-family: 'Trocchi', serif;
+	font-size: 30px;
+	line-height: 1.3
+}
+
+h1 {
+	color: #9384D1;
+	font-family: Helvetica;
+	font-weight: 60px;
+	font-size: 50px;
+}
+
+h2 {
+	color: #9384D1;
+	font-family: Courier;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: ghostwhite;
+}
+
+i {
+	color: #9384D1;
+}
+
+.img-circle {
+	border-radius: 50%;
+	display: block;
+  margin: auto;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px black;
+} 
+
+#main {
+	border : 6px solid white;
+}
+
+.card-white {
+	 	background-color: #ECC9EE;
+    padding: 50px;
+    box-shadow: 0px 10px 35px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    text-align: justify-all;
+    margin: 20px;
+ }
+
+#introduction {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+
+ div {
+	text-align:justify-all;
+	text-justify:values;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #9384D1;
+	border-radius: 50%;
+	display: block;
+  margin: auto;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #000000
+}
+
+.btn-orange{
+	background-color: ##5E83E9;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.btn-orange:hover {
+	background-color: ##D3D3D3;
+	color: white;
+}
+
+
+@media(max-width: 650px){
+ 	.container{
+ 		width: 350px
+ 	}
+ }
+
+ @media(max-width: 500px){
+ 	.container{
+ 		width: 430px
+ 	}
+ }
